@@ -61,8 +61,6 @@ export const Onboarding: React.FC = () => {
             cipc_number: cipcNumber.trim() || null,
           },
         ])
-        .select()
-        .single()
 
       if (insertError) throw insertError
 
