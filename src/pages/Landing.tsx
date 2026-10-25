@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Link } from 'react-router-dom'
 import { 
   TrendingUp, 
@@ -31,7 +31,7 @@ export const Landing: React.FC = () => {
       {/* Subtitle */}
       <p className="text-lg sm:text-xl text-slate-600 text-center max-w-2xl mb-10 leading-relaxed">
         Many small businesses trade every day but struggle to prove financial viability. 
-        <strong className="text-slate-900 font-semibold"> Business Passport</strong> turns your daily sales, expenses, and track record into a verifiable digital business identity and readiness score.
+        <strong className="text-slate-900 font-semibold"> Khula</strong> turns your daily sales, expenses, and track record into a verifiable digital business identity and readiness score.
       </p>
 
       {/* CTA Buttons */}
@@ -40,7 +40,7 @@ export const Landing: React.FC = () => {
           to="/register"
           className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-base shadow-xl shadow-slate-900/10 hover:shadow-slate-900/20 transition-all transform hover:-translate-y-0.5"
         >
-          <span>Create Business Passport</span>
+          <span>Create Khula</span>
           <ArrowRight className="w-4 h-4" />
         </Link>
         <Link
@@ -93,7 +93,7 @@ export const Landing: React.FC = () => {
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600">Step 2</span>
             <h3 className="text-xl font-bold text-slate-900 mt-1 mb-3">PROVE</h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4">
-              Your daily activity builds a verified Business Passport with an objective 0–100 Readiness Score to showcase credibility.
+              Your daily activity builds a verified Khula with an objective 0â€“100 Readiness Score to showcase credibility.
             </p>
             <ul className="text-xs text-slate-500 space-y-2">
               <li className="flex items-center gap-2">
@@ -158,3 +158,4 @@ export const Landing: React.FC = () => {
     </div>
   )
 }
+

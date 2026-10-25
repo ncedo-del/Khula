@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+﻿import React, { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 import { useSales } from '../hooks/useSales'
 import { useExpenses } from '../hooks/useExpenses'
@@ -29,8 +29,8 @@ export const BusinessPassport: React.FC = () => {
   }
 
   const passportNumber = business?.id
-    ? `BP-ZA-${business.id.substring(0, 8).toUpperCase()}`
-    : 'BP-ZA-UNVERIFIED'
+    ? `KHULA-ZA-${business.id.substring(0, 8).toUpperCase()}`
+    : 'KHULA-ZA-UNVERIFIED'
 
   return (
     <div className="space-y-8 max-w-4xl mx-auto">
@@ -42,7 +42,7 @@ export const BusinessPassport: React.FC = () => {
             <span>Digital Business Identity</span>
           </div>
           <h1 className="text-3xl font-black text-slate-900 tracking-tight">
-            Official Business Passport
+            Khula Business Passport
           </h1>
           <p className="text-sm text-slate-500 mt-1">
             Converting everyday trade activity into formal market credibility.
@@ -82,7 +82,7 @@ export const BusinessPassport: React.FC = () => {
             </div>
             <div>
               <span className="text-[10px] font-mono tracking-widest text-emerald-400 uppercase">
-                REPUBLIC OF SOUTH AFRICA • DIGITAL BIZ ID
+                REPUBLIC OF SOUTH AFRICA â€¢ DIGITAL BIZ ID
               </span>
               <h2 className="text-2xl font-black tracking-tight text-white">
                 {business?.name || 'Business Passport'}
@@ -192,7 +192,7 @@ export const BusinessPassport: React.FC = () => {
       <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
         <div>
           <h2 className="text-xl font-bold text-slate-900">
-            Readiness Score Breakdown (0–100)
+            Readiness Score Breakdown (0â€“100)
           </h2>
           <p className="text-xs text-slate-500 mt-1">
             Complete the milestones below to advance from <em>Getting Started</em> to <em>Market Ready</em>.
@@ -246,3 +246,4 @@ export const BusinessPassport: React.FC = () => {
     </div>
   )
 }
+

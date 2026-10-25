@@ -13,9 +13,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Business Passport',
-        short_name: 'BizPassport',
-        description: 'Digital Business Passport for township and rural entrepreneurs',
+        name: 'Khula - Business Passport',
+        short_name: 'Khula',
+        description: 'Start small. Grow forward - Township & Rural Business Passport',
         theme_color: '#0f172a',
         background_color: '#f8fafc',
         display: 'standalone',
@@ -32,4 +32,5 @@ export default defineConfig({
     })
   ],
 })
+
 

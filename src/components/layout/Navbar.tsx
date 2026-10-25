@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/AuthContext'
 import { useRealtimeStatus } from '../../hooks/useRealtime'
@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
           </div>
           <div>
             <span className="font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
-              BizPassport
+              Khula
               <span className="text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
                 PWA
               </span>
@@ -95,3 +95,4 @@ export const Navbar: React.FC = () => {
     </header>
   )
 }
+
